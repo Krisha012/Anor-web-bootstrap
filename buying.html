@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anor</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap css link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body class="text-light">
+
+    <!----------------------------- navbar -------------------------->
+
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container">
+        <a class="navbar-brand " href="index.html">
+          <img src="./img/download 1.png" alt="">
+        </a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarScroll">
+          <ul class="navbar-nav mx-auto my-2 my-lg-0  navbar-nav-scroll  " style="--bs-scroll-height: 100px;">
+            <li class="nav-item dropdown">
+              <a class="nav-link text-light dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Discover
+              </a>
+              <ul class="dropdown-menu bg-black">
+                <li><a class="dropdown-item text-light" href="index.html">Detail</a></li>
+                <li><a class="dropdown-item text-light" href="collection.html">Collection</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-light" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" aria-current="page" href="wallet.html">Wallet</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pages
+              </a>
+              <ul class="dropdown-menu bg-black">
+                <li><a class="dropdown-item text-light" href="buying.html">Buying</a></li>
+                <li><a class="dropdown-item text-light" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider text-light">
+                </li>
+                <li><a class="dropdown-item text-light" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light"href="Selling.html">Start Selling</a>
+            </li>
+          </ul>
+          <div class=" d-xl-block d-none me-auto">
+            <label class="switch">
+              <input type="checkbox" checked>
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <form class="d-flex" role="search">
+            <input class="form-control me-5 " type="search" placeholder="Search" aria-label="Search">
+            <button class="btn px-3 rounded-5 btn-outline-success" type="submit">SignIn</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 text-center text-lg-start mb-5">
+                    <h6 class="mb-4">PREVIEW</h6>
+                    <img src="img/1 (9) 1.png" alt="" class="img-fluid">
+                    <div class="mt-4">
+                        <h5>Item Title</h5>
+                        <p><span class="bg-success p-1 rounded-1 me-2">0.01 ETH</span>Current Bid</p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-8">
+
+                    <form class="row g-3">
+
+                        <div class="col-md-12">
+                            <h6 class="mb-4">Add New Item</h6>
+                            <div class="form-border p-5 text-center bg rounded-3">
+                                <p class="bg text-color">PNG, GIF, WEBP, MP4 or MP3. <br> Max: 100mb</p>
+                                <button type="button" class="btn rounded-5 px-4 py-2">Select a File</button>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="formGroupExampleInput" class="form-label ">Title</label>
+                            <input type="text" class="form-control text-light" id="formGroupExampleInput"
+                                placeholder="e.g. “Anor Art”">
+                        </div>
+
+                        <div class="col-md-8 mb-3">
+                            <label for="inputEmail4" class="form-label">Price</label>
+                            <input type="Price" class="form-control text-light" id="inputEmail4" placeholder="0.00 ETH">
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+                            <label for="inputPassword4" class="form-label">Chain</label>
+                            <input type="Chain" class="form-control text-light" id="inputPassword4" placeholder="ETH">
+                        </div>
+
+                        <div class="">
+                            <p class="m-0 text-color">Service fee: 2.5%</p>
+                            <p class="text-color">You will receive : 0.00 ETH ($0.00)</p>
+                        </div>
+
+                        <div class="form-check form-check-inline col-md-3 mb-3">
+                            <input class="form-check-input " type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label ms-2 text-color" for="inlineCheckbox1">Put on Sale</label>
+                        </div>
+
+                        <div class="form-check form-check-inline col-md-3 mb-3">
+                            <input class="form-check-input " type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label  ms-2 text-color" for="inlineCheckbox2">Open for Bids</label>
+                        </div>
+
+                        <div class="form-check form-check-inline col-md-4 mb-3">
+                            <input class="form-check-input " type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label  ms-2 text-color" for="inlineCheckbox2">Unlock
+                                Purchased</label>
+                        </div>
+
+                        <div class="col-md-8 mb-3">
+                            <label for="inputEmail4" class="form-label">Royalties</label>
+                            <input type="Price" class="form-control text-light" id="inputEmail4"
+                                placeholder="Suggested: 0% - 20%, Max: 60%">
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="inputPassword4" class="form-label">Size</label>
+                            <input type="Chain" class="form-control text-light" id="inputPassword4"
+                                placeholder="e.g. 3000x3000px">
+                        </div>
+
+                        <div class="col-md-8 mb-3">
+                            <label for="inputEmail4" class="form-label">Choose Collection</label>
+                            <input type="Price" class="form-control text-light" id="inputEmail4"
+                                placeholder="Choose a Colllection">
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+                            <label for="inputPassword4" class="form-label">New Collection</label>
+                            <input type="Chain" class="form-control text-light" id="inputPassword4"
+                                placeholder=" Collection">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Description
+                                (Optional)</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                placeholder="e.g. “Anor Art”"></textarea>
+                        </div>
+
+
+
+                        <div class="col-12">
+                            <button type="submit" class="btn rounded-5 ">Add Item</button>
+                            <button type="button" class="btn border-0">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="px-3 footer-bg">
+        <div class="row ">
+          <div class="col-lg-3 col-md-12 col-sm-12">
+            <div class="logo">
+              <img src="/img/download 1.png" alt="">
+            </div>
+            <div class="footer-contain mt-4">
+              <p>
+                The world’s first and largest digital marketplace for
+                crypto collectibles and non-fungible tokens (NFTs). Buy,
+                sell, and discover exclusive digital items.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-7 mt-3 mt-sm-0 col-md-9 ms-0 ms-lg-auto">
+            <div class="mt-5 mt-lg-0">
+              <h4>USEFUL LINKS</h4>
+            </div>
+            <div class="row justify-content-around mt-4 ">
+              <div class="col-lg-3 col-md-3 mt-3 mt-md-0">
+                <p>Help Center</p>
+                <p>Taxes</p>
+                <p>Partners</p>
+              </div>
+              <div class="col-lg-3 col-md-3 mt-3 mt-md-0">
+                <p>Platform Status</p>
+                <p>Blog/News</p>
+                <p>Docs</p>
+              </div>
+              <div class="col-lg-3 col-md-3 mt-3 mt-md-0">
+                <p>About Company</p>
+                <p>Careers</p>
+                <p>Ventures</p>
+              </div>
+              <div class="col-lg-3 col-md-3 mt-3 mt-md-0">
+                <p>Rankings</p>
+                <p>Activity</p>
+      
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="row  pt-4 pb-3 justify-content-between">
+          <div class="col-lg-7">
+      
+            <div class="row">
+              <div class="col-lg-4">
+                <p>Copyright © 2022. Designed by Frenify</p>
+              </div>
+              <div class="col-lg-2">
+                <p>Privacy Policy</p>
+              </div>
+              <div class="col-lg-2">
+                <p>Terms of Service</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-lg-2 mt-lg-0 mt-3">
+            <div class="d-flex column-gap-3 justify-content-lg-end">
+              <i class="bi bi-twitter "></i>
+              <i class="bi-facebook  "></i>
+              <i class="bi-pinterest  "></i>
+              <i class="bi-behance"></i>
+            </div>
+      
+          </div>
+      </footer>
+
+
+</body>
+
+<!-- Bootstrap js link -->
+<!-- <script src="js/bootstrap.min.js"></script> -->
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</html>
